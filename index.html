@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visitor Management System</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- All libraries are local: the app works offline, no npm/build step needed. -->
+  <script src="vendor/react.production.min.js"></script>
+  <script src="vendor/react-dom.production.min.js"></script>
+  <script src="vendor/babel.min.js"></script>
+  <script src="vendor/qrcode.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Each file is loaded in dependency order; all share globals via `window`. -->
+  <script type="text/babel" data-presets="react" src="js/icons.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/helpers.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/ui.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/login.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/visitor-form.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/dashboard.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/checkin.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/visitors.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/appointments.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/hosts.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/kiosk.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/reports.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/users.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/audit.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/settings.jsx"></script>
+  <script type="text/babel" data-presets="react" src="js/app.jsx"></script>
+</body>
+</html>

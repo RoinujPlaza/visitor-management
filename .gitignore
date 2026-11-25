@@ -1,0 +1,12 @@
+# Runtime data — never commit databases or backups
+data/*.sqlite
+data/*.sqlite.*
+data/*.db
+data/*.db.*
+data/restore_*.sqlite
+
+# Tooling / browser artifacts
+.playwright-mcp/
+*.log
+.DS_Store
+Thumbs.db
